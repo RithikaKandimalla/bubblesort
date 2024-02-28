@@ -1,4 +1,15 @@
-﻿int[] bubble_sort_numbers = { 3,62,5,16,4,10};
+﻿/*
+Author: Manvith Katkuri
+Date: 2/28/2024
+Comments: This C# Console Application code demonstrates the
+     Bubble Sort Algorithm. No input
+    is required for the script. It will execute without 
+    input against one pre-populated arrays. 
+*/
+
+int[] bubble_sort_numbers = { 3, 62, 5, 16, 4, 10 };
+
+
 Console.WriteLine("Here is the original array that will be used to execute the Bubble Sort Algorithm: ");
 for (int i = 0; i < bubble_sort_numbers.Length; i++)
 {
