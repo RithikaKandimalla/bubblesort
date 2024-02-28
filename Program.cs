@@ -6,6 +6,7 @@ Comments: This C# Console Application code demonstrates the
     is required for the script. It will execute without 
     input against one pre-populated arrays. 
 */
+//edited by rithika Kandimalla
 
 
 /*This is the input array which must be sorted*/
