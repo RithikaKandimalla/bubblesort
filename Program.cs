@@ -7,14 +7,18 @@ Comments: This C# Console Application code demonstrates the
     input against one pre-populated arrays. 
 */
 
+
+/*This is the input array which must be sorted*/
 int[] bubble_sort_numbers = { 3, 62, 5, 16, 4, 10 };
 
-
+/* Displaying the original aray*/
 Console.WriteLine("Here is the original array that will be used to execute the Bubble Sort Algorithm: ");
 for (int i = 0; i < bubble_sort_numbers.Length; i++)
 {
     Console.Write("  " + bubble_sort_numbers[i]);
 }
+
+/* Displaying the sorted array*/
 
 Console.WriteLine("");
 Console.WriteLine("Here is the array after the execution of the Bubble Sort Algorithm: ");
@@ -28,6 +32,7 @@ Console.WriteLine("Press any key to exit the program ...");
 Console.ReadKey(true);
 
 
+/*Bubble sort code*/
 static void Bubble_Sort(int[] bs_arr)
 {
     // The for loop will continue until the array is sorted in ascending order.
